@@ -40,3 +40,14 @@ def equalOriginDistance(pointX : list , pointY : list):
         return False
 
 # Ask the user to enter 4 points and arrange them in order of their distances from the origin
+def orderByDistance(x : list, y : list, z : list , q : list):
+    import math
+    point1 = math.hypot(x[0],x[1])
+    point2 = math.hypot(y[0],y[1])
+    point3 = math.hypot(z[0],z[1])
+    point4 = math.hypot(q[0],q[1])
+    order = [point1 ,point2 ,point3 ,point4]
+    order.sort()
+    return print(order)
+
+#
