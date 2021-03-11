@@ -50,4 +50,11 @@ def orderByDistance(x : list, y : list, z : list , q : list):
     order.sort()
     return print(order)
 
-#
+# Ask the user to enter a number and find the number obtained by reversing the order of the digits
+def reverseNumber():
+    x = int(input("Digit a number: "))
+    x = str(x)
+    print(x[::-1])
+    
+
+    
