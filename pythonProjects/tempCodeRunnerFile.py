@@ -1,0 +1,2 @@
+
+    if num == numPow:
