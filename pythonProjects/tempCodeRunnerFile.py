@@ -1,2 +1,1 @@
-
-    if num == numPow:
+subBits = len(str((cvrt)))-1
